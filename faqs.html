@@ -4,123 +4,122 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AabahonSC.org - FAQs</title>
-  <meta name="description" content="Frequently Asked Questions about Aabahon — membership categories, benefits, duration, events and how to join.">
+  <meta name="description" content="Frequently asked questions about Aabahon and its memberships.">
   <link rel="icon" href="assets/images/img01.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:400,700|Roboto:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
   <header class="site-header">
-    <div class="nav-wrap">
-      <a class="brand" href="index.html">
-        <img src="assets/images/img01.png" alt="Aabahon logo">
-        <span class="brand-title">AabahonSC.org</span>
-      </a>
-      <div class="nav-spacer"></div>
-      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul>
+    <button class="menu-btn" type="button" aria-label="Open navigation menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></button>
+    <a class="brand" href="index.html"><img src="assets/images/img01.png" alt=""><span>AabahonSC.org</span></a>
+    <nav class="site-nav" aria-label="Site navigation">
+      <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="events.html">Events</a></li>
-          <li class="has-dropdown"><a href="join-us.html" class="dropbtn">Join Us</a>
-            <ul class="dropdown">
-              <li><a href="memberships.html">Memberships</a></li>
-              <li><a href="volunteers.html">Volunteers</a></li>
-            </ul>
-          </li>
+          <li><a href="join-us.html">Join Us<svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></a><ul class="sub"><li><a href="memberships.html">Memberships</a></li><li><a href="volunteers.html">Volunteers</a></li></ul></li>
           <li><a href="donations.html">Donations</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="faqs.html" class="active">FAQs</a></li>
           <li><a href="contact-us.html">Contact us</a></li>
-        </ul>
-      </nav>
-    </div>
+      </ul>
+    </nav>
+    <button class="search-btn" type="button" aria-label="Search this site"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
+    <form class="search-bar" role="search">
+      <button class="search-back" type="button" aria-label="Close search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg></button>
+      <input type="search" placeholder="Search this site" aria-label="Search this site" autocomplete="off">
+    </form>
   </header>
+  <div class="scrim"></div>
+  <nav class="drawer" aria-label="Site navigation">
+    <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="join-us.html">Join Us</a><ul class="sub"><li><a href="memberships.html">Memberships</a></li><li><a href="volunteers.html">Volunteers</a></li></ul></li>
+          <li><a href="donations.html">Donations</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faqs.html" class="active">FAQs</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+    </ul>
+  </nav>
+  <div class="search-results" hidden></div>
 
   <main id="main">
-    <section class="banner short" style="background-image:url('assets/images/img07.jpg')">
-      <div class="banner-inner"><h1>Frequently Asked Questions</h1></div>
+    <section class="banner" style="background-image:url('assets/images/img07.jpg')">
+      <div class="wrap"><h1>FAQs</h1></div>
     </section>
-
-    <section class="container narrow faq">
-      <details open>
-        <summary>1. What is Aabahon?</summary>
-        <div class="faq-body"><p>Aabahon is a non-profit organization dedicated to the promotion of the rich religious and cultural heritage of India. The erstwhile State College Bengali Cultural Association has been formalized as Aabahon to reach out to the greater Indian communities of State College and surrounding areas.</p></div>
-      </details>
-      <details>
-        <summary>2. What is the mission of Aabahon?</summary>
-        <div class="faq-body"><p>The goal of Aabahon is to promote cross-cultural interactions via informal gatherings where everyone is welcome. Aabahon also serves as a platform to engage with students and community members alike, in its endeavor to promote vibrancy through events such as Durga Pujo, Saraswati Pujo, Nobo Borsho, Rabindra Jayanti, Holi, Mahalaya, fresher&rsquo;s welcome, cultural event nights, picnics, etc.</p></div>
-      </details>
-      <details>
-        <summary>3. Is Aabahon a membership driven organization?</summary>
-        <div class="faq-body"><p>Yes. Without the support and active involvement of our members, Aabahon won&rsquo;t be able to host the above-mentioned events.</p></div>
-      </details>
-      <details>
-        <summary>4. Can I become a member of Aabahon?</summary>
-        <div class="faq-body">
-          <p>Anyone of 18 years or older can be a member. There are several membership categories:</p>
-          <ul>
-            <li>Family ($100/Year)</li>
-            <li>Working Individual ($60/year)</li>
-            <li>Postdoctoral ($30/Year)</li>
-            <li>Student ($15/Year)</li>
-          </ul>
-          <p>For detailed information about the membership categories, please refer to the attached flyer with the email.</p>
+    <section class="sec">
+      <div class="wrap"><div class="row">
+        <div class="cell s12">
+          <div class="txt faq">
+            <p class="t">Frequently Asked Questions</p>
+            <p class="q">1.<span class="tab"></span>What is Aabahon?</p>
+            <p>Aabahon is a non-profit organization dedicated to the promotion of the rich religious and cultural heritage of India. The erstwhile <b><i>State College Bengali Cultural Association</i></b> has been formalized as Aabahon to reach out to the greater Indian communities of State College and surrounding areas.</p>
+            <p class="sp"></p>
+            <p class="q">2.<span class="tab"></span>What is the mission of Aabahon?</p>
+            <p>The goal of Aabahon is to promote cross-cultural interactions via informal gatherings where everyone is welcome. Aabahon also serves as a platform to engage with students and community members alike, in its endeavor to promote vibrancy through events such as Durga Pujo, Saraswati Pujo, Nobo Borsho, Rabindra Jayanti, Holi, Mahalaya, fresher’s welcome, cultural event nights, picnics, etc.</p>
+            <p class="sp"></p>
+            <p class="q">3.<span class="tab"></span>Is Aabahon a membership driven organization?</p>
+            <p>Yes. Without the support and active involvement of our members, Aabahon won’t be able to host the above-mentioned events.</p>
+            <p class="sp"></p>
+            <p class="q">4.<span class="tab"></span>Can I become a member of Aabahon?</p>
+            <p>Anyone of 18 years or older can be a member. There are several membership categories:</p>
+            <p class="sp"></p>
+            <p class="bul"><span class="dot">·</span><span class="tab"></span>Family ($100/Year)</p>
+            <p class="bul"><span class="dot">·</span><span class="tab"></span>Working Individual ($60/year)</p>
+            <p class="bul"><span class="dot">·</span><span class="tab"></span>Postdoctoral ($30/Year)</p>
+            <p class="bul"><span class="dot">·</span><span class="tab"></span>Student <span class="small">($15/Year)</span></p>
+            <p class="sp"></p>
+            <p>For detailed information about the membership categories, please refer to the attached flyer with the email.</p>
+            <p class="sp"></p>
+            <p class="q">5.<span class="tab"></span>What if I do not wish to become a paid-member?</p>
+            <p>You can become a complimentary member of Aabahon, however, you will miss out on the perks and benefits that comes with paid membership mentioned in the next question.</p>
+            <p class="sp"></p>
+            <p class="q">6.<span class="tab"></span>What are the benefits of becoming a paid member?</p>
+            <p>As a paid member, you will get subsidized rates for events with admission fees such as Saraswati puja, Durga Puja, Cultural events, etc. You will also have voting rights any decision-making process in the general body, along with selecting the executive committee each year, and even being part of it. Events such as picnics, outdoor activities and small gathering, etc. are open only to paid members. There may also be publications/articles/notifications published by Aabahon in the future, that would be accessible only to the paid members. Furthermore, if you want to be a part of the change, you are eligible to become an office-bearer of the executive committee as a paid member. By availing a paid membership, you are not just being a member, but becoming a part of a vibrant community with a common goal of taking Aabahon forward.</p>
+            <p class="sp"></p>
+            <p class="q">7.<span class="tab"></span>What is the duration of membership?</p>
+            <p>The membership of Aabahon is annual which runs through a calendar year (August 1st to July 31). The membership can be renewed by paying the membership fee every year.</p>
+            <p class="sp"></p>
+            <p class="q">8.<span class="tab"></span>What are the advantages of family membership tier?</p>
+            <p>This tier of membership provides “one fee covers all” benefit. You just need to pay the family membership amount and it covers both legal partners, dependent children (unmarried, and under 25), and dependent relatives (residing in the USA for more than 180 days in a calendar year).</p>
+            <p class="sp"></p>
+            <p class="q">9.<span class="tab"></span>What are the advantages of postdoc and student membership tiers?</p>
+            <p>You pay a membership fee which is significantly less than other membership categories. Second, you pay subsidized admission ticket prices for the events (Saraswati Puja, Durga Puja, Cultural events, etc.) while the non-members will pay full price. Third, there’s a significant share of representation of postdocs/students in the executive committee (40 %) and in any major decision-making process. Only paid-members are eligible to be a part of that. Further, there will be numerous groups that you can be a part of when we organize events throughout the year. You would be gaining extensive leadership experience in such events, or being a part of a collaborative team.</p>
+            <p class="sp"></p>
+            <p>Postdocs and students have the largest representation in our community, and comprise 40% of the executive committee, thus playing a key role in any decision-making process as paid members. Furthermore, there will be numerous groups that you can be a part of when we organize events throughout the year. You can gain extensive leadership experience in such events and by being a part of a collaborative team.</p>
+            <p>Membership is not a requirement for standing for executive committee elections, but is necessary if you are elected.</p>
+            <p class="sp"></p>
+            <p class="q">10.<span class="tab"></span>When am I eligible to opt for working individual membership tier?</p>
+            <p>If you do not fall under the category of family, postdoc or student, and are a working professional not pursuing a degree or working as a post doc, you can choose this option.</p>
+            <p class="sp"></p>
+            <p class="q">11.<span class="tab"></span>What are the events planned by Aabahon?</p>
+            <p>The events planned are tentative and subject to change, as shall be decided by its executive members. Some events that we envision organizing throughout the year are: Saraswati Pujo, Nobo Borsho and/or Rabindra Jayanti, Member Picnics, Fresher’s Welcome, Durga Pujo, and Mahalaya. The more members we have, the more events we can organize!</p>
+            <p class="sp"></p>
+            <p class="q">12.<span class="tab"></span>Everything sounds great! How can I&nbsp; become a member?</p>
+            <p>We are looking forward to having you as a part of Aabahon family. You can refer to the attached flyer for the applicable membership category, and Zelle the membership amount to <a href="mailto:aabahon.sc@gmail.com">aabahon.sc@gmail.com</a></p>
+            <p class="sp"></p>
+            <p><b>Note:</b></p>
+            <p class="sp"></p>
+            <p>You can also direct all your queries to <a href="mailto:aabahon.sc@gmail.com">aabahon.sc@gmail.com</a></p>
+            <p class="sp"></p>
+            <p>The benefits and advantages of each membership category can be revised by the Executive Committee from time to time and based on the events organized.</p>
+          </div>
         </div>
-      </details>
-      <details>
-        <summary>5. What if I do not wish to become a paid-member?</summary>
-        <div class="faq-body"><p>You can become a complimentary member of Aabahon, however, you will miss out on the perks and benefits that comes with paid membership mentioned in the next question.</p></div>
-      </details>
-      <details>
-        <summary>6. What are the benefits of becoming a paid member?</summary>
-        <div class="faq-body"><p>As a paid member, you will get subsidized rates for events with admission fees such as Saraswati puja, Durga Puja, Cultural events, etc. You will also have voting rights any decision-making process in the general body, along with selecting the executive committee each year, and even being part of it. Events such as picnics, outdoor activities and small gathering, etc. are open only to paid members. There may also be publications/articles/notifications published by Aabahon in the future, that would be accessible only to the paid members. Furthermore, if you want to be a part of the change, you are eligible to become an office-bearer of the executive committee as a paid member. By availing a paid membership, you are not just being a member, but becoming a part of a vibrant community with a common goal of taking Aabahon forward.</p></div>
-      </details>
-      <details>
-        <summary>7. What is the duration of membership?</summary>
-        <div class="faq-body"><p>The membership of Aabahon is annual which runs through a calendar year (August 1st to July 31). The membership can be renewed by paying the membership fee every year.</p></div>
-      </details>
-      <details>
-        <summary>8. What are the advantages of family membership tier?</summary>
-        <div class="faq-body"><p>This tier of membership provides &ldquo;one fee covers all&rdquo; benefit. You just need to pay the family membership amount and it covers both legal partners, dependent children (unmarried, and under 25), and dependent relatives (residing in the USA for more than 180 days in a calendar year).</p></div>
-      </details>
-      <details>
-        <summary>9. What are the advantages of postdoc and student membership tiers?</summary>
-        <div class="faq-body">
-          <p>You pay a membership fee which is significantly less than other membership categories. Second, you pay subsidized admission ticket prices for the events (Saraswati Puja, Durga Puja, Cultural events, etc.) while the non-members will pay full price. Third, there&rsquo;s a significant share of representation of postdocs/students in the executive committee (40 %) and in any major decision-making process. Only paid-members are eligible to be a part of that. Further, there will be numerous groups that you can be a part of when we organize events throughout the year. You would be gaining extensive leadership experience in such events, or being a part of a collaborative team.</p>
-          <p>Postdocs and students have the largest representation in our community, and comprise 40% of the executive committee, thus playing a key role in any decision-making process as paid members. Furthermore, there will be numerous groups that you can be a part of when we organize events throughout the year. You can gain extensive leadership experience in such events and by being a part of a collaborative team.</p>
-          <p>Membership is not a requirement for standing for executive committee elections, but is necessary if you are elected.</p>
-        </div>
-      </details>
-      <details>
-        <summary>10. When am I eligible to opt for working individual membership tier?</summary>
-        <div class="faq-body"><p>If you do not fall under the category of family, postdoc or student, and are a working professional not pursuing a degree or working as a post doc, you can choose this option.</p></div>
-      </details>
-      <details>
-        <summary>11. What are the events planned by Aabahon?</summary>
-        <div class="faq-body"><p>The events planned are tentative and subject to change, as shall be decided by its executive members. Some events that we envision organizing throughout the year are: Saraswati Pujo, Nobo Borsho and/or Rabindra Jayanti, Member Picnics, Fresher&rsquo;s Welcome, Durga Pujo, and Mahalaya. The more members we have, the more events we can organize!</p></div>
-      </details>
-      <details>
-        <summary>12. Everything sounds great! How can I become a member?</summary>
-        <div class="faq-body"><p>We are looking forward to having you as a part of Aabahon family. You can refer to the attached flyer for the applicable membership category, and Zelle the membership amount to <a href="mailto:aabahon.sc@gmail.com">aabahon.sc@gmail.com</a>.</p>
-        <p><strong>Note:</strong> You can also direct all your queries to <a href="mailto:aabahon.sc@gmail.com">aabahon.sc@gmail.com</a>. The benefits and advantages of each membership category can be revised by the Executive Committee from time to time and based on the events organized.</p></div>
-      </details>
+      </div></div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="inner">
-      <p class="foot-contact">
-        For feedback, questions, and concerns regarding Aabahon, contact:
-        <a href="mailto:aabahon.sc@gmail.com">aabahon.sc@gmail.com</a>;
-        for website contact: <a href="mailto:aabahon.website.info@gmail.com">aabahon.website.info@gmail.com</a>
-      </p>
-      <p class="credit">Website created and maintained by Debrina Roy</p>
-    </div>
+    <div class="wrap"><div class="row"><div class="cell s12"><div class="txt">
+      <p class="r">For feedback, questions, and concerns regarding Aabahon, contact: <a href="mailto:aabahon.sc@gmail.com">aabahon.sc@gmail.com</a>;</p>
+      <p class="r m0">for website contact:&nbsp; <a href="mailto:aabahon.website.info@gmail.com">aabahon.website.info@gmail.com</a></p>
+      <p>&nbsp;Website created and maintained by <b>Debrina Roy</b></p>
+    </div></div></div></div>
   </footer>
 
   <script src="assets/js/main.js"></script>

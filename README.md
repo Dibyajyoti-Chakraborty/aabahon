@@ -15,8 +15,8 @@
 ├── faqs.html           # Frequently Asked Questions
 ├── contact-us.html     # Contact Us
 └── assets/
-    ├── css/styles.css   # All styling (Open Sans + Playfair Display, slate #546e7a theme)
-    ├── js/main.js       # Mobile nav toggle + dropdown
+    ├── css/styles.css   # All styling (Open Sans + Playfair Display, slate #546e7a accent)
+    ├── js/main.js       # Navigation drawer, site search, image carousels
     ├── images/          # 61 images (logo, banners, committee photos, event/gallery photos)
     ├── video/           # event-video.mp4 (Events Gallery)
     └── files/Aabahon-bylaws.pdf
@@ -32,7 +32,7 @@ python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
-Or just double-click `index.html` to open it in your browser.
+Or just double-click `index.html` to open it in your browser (site search needs the site served over HTTP).
 
 ## Hosting
 

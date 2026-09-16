@@ -4,89 +4,99 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AabahonSC.org - Donations</title>
-  <meta name="description" content="We greatly appreciate the generosity of our community. A heartfelt thank you to all of Aabahon's individual donors and company sponsors.">
+  <meta name="description" content="Individual donors and company sponsors of Aabahon, State College, PA.">
   <link rel="icon" href="assets/images/img01.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:400,700|Roboto:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
   <header class="site-header">
-    <div class="nav-wrap">
-      <a class="brand" href="index.html">
-        <img src="assets/images/img01.png" alt="Aabahon logo">
-        <span class="brand-title">AabahonSC.org</span>
-      </a>
-      <div class="nav-spacer"></div>
-      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul>
+    <button class="menu-btn" type="button" aria-label="Open navigation menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></button>
+    <a class="brand" href="index.html"><img src="assets/images/img01.png" alt=""><span>AabahonSC.org</span></a>
+    <nav class="site-nav" aria-label="Site navigation">
+      <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="events.html">Events</a></li>
-          <li class="has-dropdown"><a href="join-us.html" class="dropbtn">Join Us</a>
-            <ul class="dropdown">
-              <li><a href="memberships.html">Memberships</a></li>
-              <li><a href="volunteers.html">Volunteers</a></li>
-            </ul>
-          </li>
+          <li><a href="join-us.html">Join Us<svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></a><ul class="sub"><li><a href="memberships.html">Memberships</a></li><li><a href="volunteers.html">Volunteers</a></li></ul></li>
           <li><a href="donations.html" class="active">Donations</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="faqs.html">FAQs</a></li>
           <li><a href="contact-us.html">Contact us</a></li>
-        </ul>
-      </nav>
-    </div>
+      </ul>
+    </nav>
+    <button class="search-btn" type="button" aria-label="Search this site"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
+    <form class="search-bar" role="search">
+      <button class="search-back" type="button" aria-label="Close search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg></button>
+      <input type="search" placeholder="Search this site" aria-label="Search this site" autocomplete="off">
+    </form>
   </header>
+  <div class="scrim"></div>
+  <nav class="drawer" aria-label="Site navigation">
+    <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="join-us.html">Join Us</a><ul class="sub"><li><a href="memberships.html">Memberships</a></li><li><a href="volunteers.html">Volunteers</a></li></ul></li>
+          <li><a href="donations.html" class="active">Donations</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+    </ul>
+  </nav>
+  <div class="search-results" hidden></div>
 
   <main id="main">
-    <section class="banner short" style="background-image:url('assets/images/img07.jpg')">
-      <div class="banner-inner"><h1>Donations</h1></div>
+    <section class="banner" style="background-image:url('assets/images/img07.jpg')">
+      <div class="wrap"><h1>Donations</h1></div>
     </section>
-
-    <section class="container narrow">
-      <h2>Individual Donors</h2>
-      <p class="lead">We greatly appreciate the generosity of our community and are always open to accepting donations to further our cause.</p>
-      <p>A heartfelt thank you to all our contributors listed below:</p>
-      <ul class="donor-list">
-        <li>Aayudh Das</li>
-        <li>Ashim &amp; Sagarika Kamjilal</li>
-        <li>Chandra Bose</li>
-        <li>Chobi &amp; Tarashankar Debroy</li>
-        <li>Indrani &amp; Prasanta Basak</li>
-        <li>Kalyan Chatterjee</li>
-        <li>Manu &amp; Soma Datta</li>
-        <li>Manabendra Datta</li>
-        <li>Namita Das</li>
-        <li>Nilima Kumar</li>
-        <li>Roma Das</li>
-        <li>Subhra Mondal</li>
-        <li>Tanuka &amp; Tapas Mal</li>
-        <li>Tapas Purkait</li>
-      </ul>
-      <img src="assets/images/img53.png" alt="Donations" style="max-width:320px;margin:32px auto 0;border-radius:12px;box-shadow:0 4px 14px rgba(0,0,0,.12);">
+    <section class="sec">
+      <div class="wrap"><div class="row">
+        <div class="cell s7">
+          <div class="txt donors">
+            <h1 class="title l">Individual Donors</h1>
+            <p><b>We greatly appreciate the generosity of our community and are always open to accepting donations to further our cause.</b> A heartfelt thank you to all our contributors listed below:</p>
+            <p>Aayudh Das</p>
+            <p>Ashim &amp; Sagarika Kamjilal</p>
+            <p>Chandra Bose</p>
+            <p>Chobi &amp; Tarashankar Debroy</p>
+            <p>Indrani &amp; Prasanta Basak</p>
+            <p>Kalyan Chatterjee</p>
+            <p>Manu &amp;Soma Datta</p>
+            <p>Manabendra Datta</p>
+            <p>Namita Das</p>
+            <p>Nilima Kumar</p>
+            <p>Roma Das</p>
+            <p>Subhra Mondal</p>
+            <p>Tanuka &amp; Tapas Mal</p>
+            <p>Tapas Purkait</p>
+          </div>
+        </div>
+        <div class="cell s5">
+          <img src="assets/images/img53.png" alt="Donation">
+        </div>
+      </div></div>
     </section>
-
-    <section class="section alt">
-      <div class="inner center">
-        <h2>Company Sponsors</h2>
-        <p>We greatly appreciate the generosity of our community and are always open to accepting donations to further our cause.</p>
-        <p>A heartfelt thank you to all our contributors</p>
-      </div>
+    <section class="sec">
+      <div class="wrap"><div class="row">
+        <div class="cell s12">
+          <div class="txt donors">
+            <h1 class="title l">Company Sponsors</h1>
+            <p><b>We greatly appreciate the generosity of our community and are always open to accepting donations to further our cause.</b> A heartfelt thank you to all our contributors.</p>
+          </div>
+        </div>
+      </div></div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="inner">
-      <p class="foot-contact">
-        For feedback, questions, and concerns regarding Aabahon, contact:
-        <a href="mailto:aabahon.sc@gmail.com">aabahon.sc@gmail.com</a>;
-        for website contact: <a href="mailto:aabahon.website.info@gmail.com">aabahon.website.info@gmail.com</a>
-      </p>
-      <p class="credit">Website created and maintained by Debrina Roy</p>
-    </div>
+    <div class="wrap"><div class="row"><div class="cell s12"><div class="txt">
+      <p class="r">For feedback, questions, and concerns regarding Aabahon, contact: <a href="mailto:aabahon.sc@gmail.com">aabahon.sc@gmail.com</a>;</p>
+      <p class="r m0">for website contact:&nbsp; <a href="mailto:aabahon.website.info@gmail.com">aabahon.website.info@gmail.com</a></p>
+      <p>&nbsp;Website created and maintained by <b>Debrina Roy</b></p>
+    </div></div></div></div>
   </footer>
 
   <script src="assets/js/main.js"></script>
