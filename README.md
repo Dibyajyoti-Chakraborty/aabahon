@@ -47,9 +47,4 @@ custom domain in the host's settings.
 
 ## Notes
 
-- The original site is built on Google Sites. This is a clean, faithful recreation of its
-  content, images, navigation and look — not a copy of Google's page chrome.
-- Original page URLs used a `/join-us/memberships` style path; here the equivalent pages are
-  `memberships.html` and `volunteers.html` for portability across hosts. Update the nav links
-  if you prefer nested folders.
-- Contact: `aabahon.sc@gmail.com` (general), `aabahon.website.info@gmail.com` (website).
+- Contact: `aabahon.sc@gmail.com`
