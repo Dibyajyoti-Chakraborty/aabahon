@@ -1,9 +1,4 @@
-# AabahonSC.org — static site
-
-A hand-built, static HTML/CSS recreation of the Aabahon (State College, PA) website,
-ready to host on any static web host. No build step, no framework — just open and serve.
-
-Aabahon is a non-profit cultural organization established in State College, PA in 2022.
+# AabahonSC.org 
 
 ## Structure
 
